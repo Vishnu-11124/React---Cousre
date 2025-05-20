@@ -27,6 +27,25 @@ Repo for learning react framework.
 
         - npm run dev (Opening project)
 
+-> Linking tailwind in react
+
+    - Install tailwindcss and its peer dependencies, then generate your tailwind.config.js and postcss.config.js files.
+
+        - npm install -D tailwindcss@3 postcss autoprefixer
+
+        - npx tailwindcss init -p
+
+    - Add the paths to all of your template files in your tailwind.config.js file.
+
+        -  content: [ "./index.html", "./src/**/*.{js,ts,jsx,tsx}", ],
+
+    - Add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file.
+
+        - @tailwind base;
+          @tailwind components;
+          @tailwind utilities;
+
+
 
 
 <!---------------------------- React Course -------------------------->
